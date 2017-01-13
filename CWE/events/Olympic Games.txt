@@ -69,6 +69,7 @@ country_event = 123421
 any_country = { country_event = 123422 } #Join the Olympics?
 set_country_flag = 1948_olympics_done
 set_country_flag = olympics_ongoing
+set_global_flag = 1948_olympics_completed
 		}
 }
 
@@ -259,3 +260,39 @@ remove_country_modifier = next_olympics_host_nation
 random_country = { limit = { NOT = { has_country_modifier = recently_held_olympics } OR = { is_greater_power = yes is_secondary_power = yes } is_vassal = no war = no OR = { money = 110000 ai = no } } country_event = 123425 }
 		}
 }
+
+#1992 Olympics in Spain (Kick Start off Olympics selection)
+country_event = {
+	id = 123429
+	title = "1992 $CAPITAL$ Olympics"
+	desc = EVTDESC123429
+	picture = "olympics_spain"
+	major = yes
+trigger = {
+NOT = { has_global_flag = 1948_olympics_completed }
+tag = SPA
+year = 1992
+NOT = { year = 1993 }
+month = 7
+USA = { NOT = { war_with = RUS } }
+NOT = { has_country_modifier = defcon1 }
+any_owned_province = { NOT = { has_province_modifier = olympics_city } }
+NOT = { has_country_modifier = recently_held_olympics }
+
+NOT = { has_country_flag = 1992_olympics_done }
+}
+
+option = {
+name = "Great!"
+add_country_modifier = { name = recently_held_olympics duration = 3285 }
+any_owned = { limit = { is_capital = yes }
+add_province_modifier = { name = olympics_city duration = 16 } }
+add_country_modifier = { name = olympics_in_session duration = 16 }
+
+country_event = 123421
+any_country = { country_event = 123422 } #Join the Olympics?
+set_country_flag = 1992_olympics_done
+set_country_flag = olympics_ongoing
+		}
+}
+
