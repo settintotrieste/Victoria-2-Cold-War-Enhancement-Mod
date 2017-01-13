@@ -1,22 +1,4 @@
 political_decisions = {
-	olympics_bid = {
-		picture = "olympics_bid"
-		alert = no
-		potential = {
-			NOT = { has_country_flag = arranged_olympics_games }
-			NOT = { has_country_flag = olympics_bid }
-			ai = no
-		}
-		allow = {
-			money = 120000
-			OR = { is_greater_power = yes is_secondary_power = yes }
-		}
-		effect = {
-			set_country_flag = olympics_bid
-			treasury = -1000
-			country_event = 16000
-		}
-	}
 
 	winter_olympics_bid = {
 		picture = "winter_olympics_bid"
@@ -39,33 +21,5 @@ political_decisions = {
 		}
 	}
 	
-	1948_winter_olympics = {
-		picture = "1948_winter_olympics"
-		potential = {
-			tag = SWI
-			NOT = { has_country_flag = 1948_winter_olympics }
-			NOT = { has_country_flag = arranged_winter_olympics_games }
-			NOT = { has_country_flag = winter_olympics_bid }
-			year = 1944 NOT = { year = 1948 }
-		}
-		allow = {
-			OR = { 
-				AND = { 
-					money = 12000
-					public_switched_telephone_network = 1
-				}
-				ai = yes
-			}
-		}
-		effect = {
-			set_country_flag = 1948_winter_olympics
-			set_country_flag = winter_olympics_bid
-			set_global_flag = winter_olympic_bid_10000
-			treasury = -10000
-			random_pop = { limit = { type = capitalists } money = 10000 }
-			prestige = 5
-		}
-		ai_will_do = { factor = 1 }
-	}
-	
+		
 }

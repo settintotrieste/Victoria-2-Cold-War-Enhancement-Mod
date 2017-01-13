@@ -2,6 +2,57 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+### Olympics ###
+
+disaster_olympics = {
+prestige = -0.25
+icon = 18
+}
+
+olympics_village = {
+icon = 7
+}
+
+olympics_sport = {
+icon = 7
+}
+
+olympics_media = {
+icon = 7
+}
+
+next_olympics_host_nation = {
+prestige = 0.20
+icon = 7
+}
+
+recently_held_olympics = {
+prestige = 0.10
+RGO_throughput = 0.25
+factory_output = 0.25
+icon = 7
+}
+
+olympics_in_session = {
+prestige = 0.25
+icon = 7
+}
+
+olympics_city = {
+local_RGO_throughput = 0.50
+local_factory_output = 0.50
+icon = 7
+}
+
+olympics_dope_warning1 = {
+icon = 18
+}
+
+olympics_dope_warning2 = {
+icon = 18
+}
+
+
 ### Chemical Warfare ###
 
 chemical_sanctions = {

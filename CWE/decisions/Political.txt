@@ -49,10 +49,14 @@ political_decisions = {
 			can_nationalize = yes 
 		}
 		allow = {
-			#NOT = { part_of_sphere = yes }
-			#ruling_party_ideology = communist
-			NOT = { has_country_modifier = pending_nationalize }
-			government = proletarian_dictatorship
+			NOT = { part_of_sphere = yes }
+			is_greater_power = no
+			is_vassal = no
+			OR = { ruling_party_ideology = communist
+			ruling_party_ideology = nationalist
+			ruling_party_ideology = populist
+			ruling_party_ideology = traditionalist }
+		NOT = { has_country_modifier = pending_nationalize }
 		}
 		effect = {
 			nationalize = yes
@@ -60,7 +64,7 @@ political_decisions = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}
 	}
 	

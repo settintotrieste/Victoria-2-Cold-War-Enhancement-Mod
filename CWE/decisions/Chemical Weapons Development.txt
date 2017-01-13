@@ -17,7 +17,7 @@ allow = {
 election = no
 
 OR = { 
-
+ai = no
 AND = { 
 ai = yes
 year = 1949
