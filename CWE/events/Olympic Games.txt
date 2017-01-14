@@ -182,7 +182,7 @@ prestige = 50
 option = {
 name = "Perhaps another time?"
 
-random_country = { limit = { is_greater_power = no is_secondary_power = no is_vassal = no war = no } country_event = 123424 }
+random_country = { limit = { is_greater_power = no is_secondary_power = no is_vassal = no war = no OR = { money = 110000 ai = no } } country_event = 123424 }
 
 ai_chance = { factor = 0.20 }
 		}

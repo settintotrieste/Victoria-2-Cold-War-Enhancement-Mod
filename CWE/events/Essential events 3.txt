@@ -921,7 +921,7 @@ country_event = {
 SYR = { set_country_flag = syrindy
 add_country_modifier = { name = post_colonial_chaos duration = 3650 } }
 release_vassal = SYR
-SYR = { government = presidential_dictatorship }
+SYR = { government = democracy1 }
 prestige = 10
 ai_chance = { factor = 100 }
 			}
