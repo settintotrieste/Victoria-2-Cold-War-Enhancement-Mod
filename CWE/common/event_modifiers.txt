@@ -44,14 +44,10 @@ local_factory_output = 0.50
 icon = 7
 }
 
-olympics_dope_warning1 = {
+olympics_dope_ban = {
+prestige = -0.1
 icon = 18
 }
-
-olympics_dope_warning2 = {
-icon = 18
-}
-
 
 ### Chemical Warfare ###
 

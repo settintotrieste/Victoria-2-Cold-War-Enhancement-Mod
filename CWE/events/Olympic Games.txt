@@ -1,3 +1,16 @@
+#Olympics Doping scandal
+country_event = {
+	id = 123416
+	title = "National Teams caught for doping!"
+	desc = "Our National Teams have been caught using drugs to improve their performance and have been banned from the next olympics by the IOC!"
+	picture = "olympics_doping"
+	is_triggered_only = yes
+option = {
+name = "Terrible!"
+add_country_modifier = { name = olympics_dope_ban duration = 2190 }
+prestige = -50
+		}
+}
 #Olympics Win Bigly
 country_event = {
 	id = 123419
@@ -108,8 +121,29 @@ random_list = {
 }
 prestige = 5
 badboy = -1
-ai_chance = { factor = 1 }
+ai_chance = { 
+factor = 1 
+modifier = { 
+OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 government = colonial_government government = sar_government government = absolute_monarchy } 
+factor = 0 } 
+}
 		}
+
+option = {
+name = "Yes and we shall get our athletes to dope!"
+random_list = {
+	40 = { country_event = 123416 }
+	60 = { country_event = 123419 }
+}
+prestige = 10
+badboy = -1
+ai_chance = { factor = 0 
+modifier = { 
+NOT = { OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 government = colonial_government government = sar_government government = absolute_monarchy } }
+factor = 1 } }
+
+		}
+
 option = {
 name = "No, boycott the games!"
 relation = { who = FROM value = -50 }
@@ -152,7 +186,7 @@ name = "Yes!"
 ai_chance = { factor = 0.20 }
 set_country_flag = next_olympics_host_nation
 add_country_modifier = { name = next_olympics_host_nation duration = 1460 }
-prestige = 50
+prestige = 20
 		}
 option = {
 name = "Perhaps another time?"
@@ -210,8 +244,7 @@ add_province_modifier = { name = olympics_city duration = 16 } }
 add_country_modifier = { name = olympics_in_session duration = 16 }
 prestige = 50
 country_event = 123421
-any_country = { country_event = 123422 } #Join the Olympics?
-set_country_flag = 1948_olympics_done
+any_country = { limit = { NOT = { has_country_modifier = olympics_dope_ban } } country_event = 123422 } #set_country_flag = 1948_olympics_done
 set_country_flag = olympics_ongoing
 clr_country_flag = next_olympics_host_nation
 		}
