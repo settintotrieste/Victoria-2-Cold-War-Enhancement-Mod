@@ -106,8 +106,8 @@ random_list = {
 	60 = { country_event = 123418 }
 	25 = { country_event = 123417 }
 }
-prestige = 50
-badboy = -5
+prestige = 5
+badboy = -1
 ai_chance = { factor = 1 }
 		}
 option = {

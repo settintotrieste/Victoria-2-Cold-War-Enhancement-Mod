@@ -862,7 +862,7 @@ country_event = {
 	
 	option = {
 		name = "It is the end of Communist rule!"
-		prestige = -1000
+		prestige_factor = -0.50
 		release = LIT
 		release = LAT
 		release = EST
@@ -876,7 +876,6 @@ country_event = {
 		release_vassal = ALB
 		GER = { create_vassal = DDR }
 		set_country_flag = eussr
-		DAI = { ruling_party = "party_communist_0_DAI" }
 		country_event = 8014271
 		}
 }

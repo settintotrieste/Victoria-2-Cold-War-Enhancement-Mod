@@ -8,7 +8,7 @@ country_event = {
   trigger = {
     tag = SYR
     year = 1963 NOT = { year = 1964 }
-    government = democracy
+    government = democracy1
   }
 
   mean_time_to_happen = { months = 1 }

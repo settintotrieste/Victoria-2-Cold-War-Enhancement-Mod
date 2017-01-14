@@ -1576,12 +1576,14 @@ exportfocus = {
 local_factory_owner_cost = -0.10
 local_factory_throughput = 0.20
 local_factory_output = 0.20
+population_growth = -0.001
 icon = 18 
 } 
 
 importsubstitutionfocus = { 
 local_RGO_throughput = 0.25
 local_RGO_output = 0.25
+population_growth = 0.002
 icon = 18 
 } 
 
@@ -2698,7 +2700,7 @@ demographic_transition = {
 
 
 family_values = {
-	population_growth = 0.002
+	population_growth = 0.0025
 	icon = 17
 }
 
@@ -2766,6 +2768,7 @@ comecon_aid_rejected = { icon = 10 }
 forced_labour = {
 	prestige = -0.02
 	suppression_points_modifier = 2.0
+	tax_efficiency = 0.002
 	icon = 10
 }
 

@@ -289,7 +289,7 @@ demotion_chance = { # 1
 
 #general migration chance mtth, same for all pops
 migration_chance = { # 1
-	factor = 2
+	factor = 1
 
 		group = {
 
@@ -388,7 +388,7 @@ colonialmigration_chance = { # 0.25
 
 #general emigration chance
 emigration_chance = { # 0.5
-	factor = 1.5
+	factor = 1.1
 modifier = { factor = 0.8 location = { NOT = { controlled_by = owner } } }
 	modifier = { factor = -1.0 state_scope = { is_colonial = yes } }
 

@@ -36,27 +36,29 @@ political_decisions = {
 		# transition_to_democracy_from_communism_title;Transition to Democracy from Communism
 		# transition_to_democracy_from_communism_desc;The transition to democracy began when a Constitution establishing a transition itinerary was approved in a plebiscite. During the last yeasr, several organic constitutional laws were approved leading to the final restoration of democracy. After the presidential plebiscite, the New Constitution, still in force today, was add to ease provisions for future amendments to the constitution, ening Communist rule.
 		potential = {
-			ai = no
 			exists = yes
 			government = proletarian_dictatorship
 		}
 
 		allow = {
 			is_vassal = no
+		NOT = { AND = { ai = yes tag = RUS } }
 			OR = { 
 				part_of_sphere = no
 				is_secondary_power = yes
 				has_global_flag = autumn_of_nations
 			}
-			second_cold_war = 1
+			war = no
+		NOT = { ruling_party_ideology = communist }
 		}
 
 		effect = {
 			prestige = -10
-			government = democracy country_event = 800054 
+			government = democracy 
+			country_event = 800054 
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}	
 		alert = no		
 	}
