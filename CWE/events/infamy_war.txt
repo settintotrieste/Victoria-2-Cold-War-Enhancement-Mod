@@ -490,7 +490,7 @@ country_event = {
 	mean_time_to_happen = {
 		months = 12
 	}
-
+immediate = { badboy = -1000 }
 	option = {
 		name = "EVTOPTA96150" #Excellent
 		clr_global_flag = ultimatum_refused

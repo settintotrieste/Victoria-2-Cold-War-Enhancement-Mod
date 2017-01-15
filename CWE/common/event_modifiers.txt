@@ -2,6 +2,87 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+### Space Race ###
+
+space_agency = {
+tax_efficiency = -0.02
+icon = 7
+}
+
+space_private = {
+tax_efficiency = 0.02
+icon = 7
+}
+
+space_public = {
+tax_efficiency = -0.01
+icon = 7
+}
+
+develop_space_rocket = {
+tax_efficiency = -0.02
+icon = 7
+}
+
+space_rocket = {
+prestige = 0.01
+icon = 7
+}
+
+develop_space_satellite = {
+tax_efficiency = -0.02
+icon = 7
+}
+
+develop_space_probes = {
+tax_efficiency = -0.02
+icon = 7
+}
+
+develop_space_station = {
+tax_efficiency = -0.02
+icon = 7
+}
+
+develop_moon_mission = {
+tax_efficiency = -0.05
+icon = 7
+}
+
+develop_mars_mission = {
+tax_efficiency = -0.10
+icon = 7
+}
+
+space_satellite = {
+prestige = 0.01
+tax_efficiency = 0.02
+icon = 7
+}
+
+space_man = {
+prestige = 0.01
+icon = 7
+}
+
+space_station = {
+prestige = 0.01
+icon = 7
+}
+
+space_probe = {
+prestige = 0.01
+icon = 7
+}
+
+iss = {
+prestige = 0.01
+icon = 7
+}
+
+space_project_attempted = {
+icon = 7
+}
 ### European Investment Bank ###
 
 eib_member = {

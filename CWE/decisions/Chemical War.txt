@@ -31,7 +31,7 @@ NOT = { has_country_modifier = chemical_used_recently }
 	}
 
 effect = {
-any_country = { limit = { war_with = THIS } country_event = 1231432 } 
+any_neighbor_country = { limit = { war_with = THIS } country_event = 1231432 } 
 add_country_modifier = { name = chemical_used_recently duration = 365 }
 badboy = 25
 		}

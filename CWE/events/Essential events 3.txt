@@ -1539,3 +1539,259 @@ ai_chance = { factor = 1 }
 		}
 }
 
+#Rocket Failure
+country_event = {
+	id = 1400054
+	title = "Our Rocket Launch attempt failed"
+	desc = "Poor launch planning, human error during the launch and technical flaws in the rocket design are reasons cited for the failure."
+	picture = "rocket_fail"
+	
+is_triggered_only = yes
+
+option = {
+name = "Damn, it is back to square one!"
+prestige = -5
+add_country_modifier = { name = space_project_attempted duration = 365 }
+		}
+}
+
+#Rocket Success
+country_event = {
+	id = 1400055
+	title = "Our Rocket Launch attempt succeeded"
+	desc = "Good launch planning, no human errors during the launch and technical genius in the rocket design are reasons cited for the success."
+	picture = "rocket_success"
+	
+is_triggered_only = yes
+
+option = {
+name = "Excellent news!"
+prestige = 20
+add_country_modifier = { name = space_project_attempted duration = 365 }
+add_country_modifier = { name = space_rocket duration = -1 }
+remove_country_modifier = develop_space_rocket
+		}
+}
+
+#Satellite Success
+country_event = {
+	id = 1400056
+	title = "Our Satellite Launch attempt succeeded"
+	desc = "Good launch planning, no human errors during the launch and technical genius in the satellite design are reasons cited for the success."
+	picture = "satellite_success"
+	
+is_triggered_only = yes
+
+option = {
+name = "Excellent news!"
+prestige = 30
+add_country_modifier = { name = space_project_attempted duration = 365 }
+add_country_modifier = { name = space_satellite duration = -1 }
+remove_country_modifier = develop_space_satellite
+		}
+}
+
+#Satellite Failure
+country_event = {
+	id = 1400057
+	title = "Our Satellite Launch attempt failed"
+	desc = "Poor launch planning, human errors during the launch and technical flaws in the satellite design are reasons cited for the failure."
+	picture = "satellite_failure"
+	
+is_triggered_only = yes
+
+option = {
+name = "We must keep trying!"
+prestige = -10
+add_country_modifier = { name = space_project_attempted duration = 365 }
+		}
+}
+#Space man Success
+country_event = {
+	id = 1400058
+	title = "Our Man in Space attempt succeeded"
+	desc = "Good launch planning, no human errors during the launch and excellent astronaut training are reasons cited for the success."
+	picture = "space_man_success"
+	
+is_triggered_only = yes
+
+option = {
+name = "Excellent news!"
+prestige = 40
+add_country_modifier = { name = space_project_attempted duration = 365 }
+add_country_modifier = { name = space_man duration = -1 }
+remove_country_modifier = develop_space_man
+		}
+}
+
+#Space man Failure
+country_event = {
+	id = 1400059
+	title = "Our Man in Space attempt failed"
+	desc = "Poor launch planning, human errors during the launch and excellent astronaut training are reasons cited for the failure."
+	picture = "space_man_failure"
+	
+is_triggered_only = yes
+
+option = {
+name = "We must keep trying!"
+prestige = -15
+add_country_modifier = { name = space_project_attempted duration = 365 }
+		}
+}
+#Space Probe Success
+country_event = {
+	id = 1400060
+	title = "Our Space Probe attempt succeeded"
+	desc = "Good launch planning, no human errors during the launch and excellent probe designs are reasons cited for the success."
+	picture = "space_probe_success"
+	
+is_triggered_only = yes
+
+option = {
+name = "Excellent news!"
+prestige = 30
+add_country_modifier = { name = space_project_attempted duration = 365 }
+add_country_modifier = { name = space_probe duration = -1 }
+remove_country_modifier = develop_space_probe
+		}
+}
+
+#Space Probe Failure
+country_event = {
+	id = 1400061
+	title = "Our Space Probe attempt failed"
+	desc = "Poor launch planning, human errors during the launch and poor probe designs are reasons cited for the failure."
+	picture = "space_probe_failure"
+	
+is_triggered_only = yes
+
+option = {
+name = "We must keep trying!"
+prestige = -15
+add_country_modifier = { name = space_project_attempted duration = 365 }
+		}
+}
+
+#Space Station Success
+country_event = {
+	id = 1400062
+	title = "Our Space Station Establishment attempt succeeded"
+	desc = "Good launch planning, no human errors during the launch and excellent space station designs are reasons cited for the success."
+	picture = "space_station_success"
+	
+is_triggered_only = yes
+
+option = {
+name = "Excellent news!"
+prestige = 50
+add_country_modifier = { name = space_project_attempted duration = 365 }
+add_country_modifier = { name = space_station duration = -1 }
+remove_country_modifier = develop_space_station
+		}
+}
+
+#Space Station Failure
+country_event = {
+	id = 1400063
+	title = "Our Space Station Establishment attempt failed"
+	desc = "Poor launch planning, human errors during the launch and atrocious space station designs are reasons cited for the failure."
+	picture = "space_station_failure"
+	
+is_triggered_only = yes
+
+option = {
+name = "We must keep trying!"
+prestige = -20
+add_country_modifier = { name = space_project_attempted duration = 365 }
+		}
+}
+
+#Moon Mission Success
+country_event = {
+	id = 1400064
+	title = "Our Manned Moon Mission succeeded"
+	desc = "Good launch planning, no human errors during the launch and excellent astronaut skills are reasons cited for the success."
+	picture = "moon_success"
+	
+is_triggered_only = yes
+major = yes
+option = {
+name = "A small step for man, a giant leap for mankind!"
+prestige = 500
+add_country_modifier = { name = space_project_attempted duration = 365 }
+set_country_flag = space_moon
+remove_country_modifier = develop_moon_mission
+		}
+}
+
+#Moon Mission Failure
+country_event = {
+	id = 1400065
+	title = "Our Manned Moon Mission failed"
+	desc = "Poor launch planning, human errors during the launch and atrocious astronaut skills are reasons cited for the failure."
+	picture = "moon_failure"
+	
+is_triggered_only = yes
+
+option = {
+name = "We must keep trying!"
+prestige = -50
+add_country_modifier = { name = space_project_attempted duration = 365 }
+		}
+}
+
+#Mars Mission Success
+country_event = {
+	id = 1400066
+	title = "Our Manned Mars Mission succeeded"
+	desc = "Good launch planning, no human errors during the launch and excellent astronaut skills are reasons cited for the success."
+	picture = "mars_success"
+	
+is_triggered_only = yes
+major = yes
+option = {
+name = "Ad Astra!"
+prestige = 1000
+add_country_modifier = { name = space_project_attempted duration = 365 }
+set_country_flag = space_mars
+remove_country_modifier = develop_mars_mission
+		}
+}
+
+#Mars  Mission Failure
+country_event = {
+	id = 1400067
+	title = "Our Space Station Establishment attempt failed"
+	desc = "Poor launch planning, human errors during the launch and atrocious astronaut skills are reasons cited for the failure."
+	picture = "mars_failure"
+	
+is_triggered_only = yes
+
+option = {
+name = "We must keep trying!"
+prestige = -100
+add_country_modifier = { name = space_project_attempted duration = 365 }
+		}
+}
+
+#ISS Construction
+country_event = {
+	id = 1400068
+	title = "International Space Station"
+	desc = EVTDESC1400068
+	picture = "iss"
+	
+trigger = { 
+any_greater_power = { has_country_modifier = iss }
+year = 1998
+has_country_modifier = iss
+NOT = { has_global_flag = iss_built }
+}
+
+option = {
+name = "Space Cooperation will bring us to new heights!"
+prestige = 100
+set_global_flag = iss_built
+		}
+}

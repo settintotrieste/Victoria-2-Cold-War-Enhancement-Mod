@@ -46,7 +46,7 @@ social_service_reform = no_social_service
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-schools = army_tech_school
+schools = mandate
 oob = "/SYR_oob.txt"
 
 1992.1.1 = {
