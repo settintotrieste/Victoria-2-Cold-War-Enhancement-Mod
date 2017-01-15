@@ -1,6 +1,7 @@
 owner = SYR
 controller = SYR
 add_core = SYR
+add_core = DRZ
 trade_goods = fruit
 life_rating = 15
 terrain = hilly_farmland

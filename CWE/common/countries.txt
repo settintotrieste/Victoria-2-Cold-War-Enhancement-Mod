@@ -1,6 +1,8 @@
 # GENERATED 
 # Special countries...
 REB = "countries/rebels.txt"
+DRZ = "countries/Druze.txt"
+ALW = "countries/Alawite.txt"
 JRU = "countries/Jerusalem.txt"
 KLM = "countries/Kalimantan.txt"
 SAB = "countries/Sabah.txt"

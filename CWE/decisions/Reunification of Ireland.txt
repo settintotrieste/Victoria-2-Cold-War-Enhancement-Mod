@@ -1,6 +1,6 @@
 political_decisions = {
 northern_ireland_reunification = {
-	picture = "irish_reunification"
+	picture = "united_ireland"
 		potential = {
 		tag = IRE
 		is_vassal = no

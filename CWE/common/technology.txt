@@ -290,6 +290,13 @@ schools = {
 		industry_tech_research_bonus = 0.05
 		navy_tech_research_bonus = 0.1
 	}
+	mandate = { # League of Nations Mandate
+		army_tech_research_bonus = 0.05
+		commerce_tech_research_bonus = 0.05
+		culture_tech_research_bonus = 1
+		industry_tech_research_bonus = 0.05
+		navy_tech_research_bonus = 0.1
+	}
 	XTC_tech_school = { # Turkic Council
 		army_tech_research_bonus = -0.1
 		commerce_tech_research_bonus = 0.1

@@ -1,4 +1,61 @@
 country_event = {
+	id = 99977
+	title = EVT_99977_NAME
+	desc = EVT_99977_DESC
+	picture = "lon_syria"
+	is_triggered_only = yes
+
+  	option = {
+    	name = EVT_99977_A
+		ai_chance = { factor = 99 }
+		SYR = { inherit = THIS }
+  	}
+ 	option = {
+    	name = EVT_99977_B
+		ai_chance = { factor = 1 }
+		prestige = 10
+		militancy = 5
+		consciousness = 2
+  	}
+}
+country_event = {
+	id = 99978
+	title = EVT_99978_NAME
+	desc = EVT_99978_DESC
+	picture = "lon_syria"
+	is_triggered_only = yes
+
+  	option = {
+    	name = EVT_99978_A
+		ai_chance = { factor = 18 }
+		SYR = { 
+			inherit = THIS
+			add_accepted_culture = christian_arab 
+		}
+  	}
+ 	option = {
+    	name = EVT_99978_B
+		ai_chance = { factor = 82 }
+		badboy = 1
+		prestige = 4
+		any_pop = {
+			limit = {
+				culture = shia_arab
+				culture = sunni_arab
+			}
+			militancy = 3
+			consciousness = 2
+		}
+		any_pop = {
+			limit = {
+				culture = christian_arab
+			}
+			militancy = -1
+			consciousness = -1
+		}
+  	}
+}
+country_event = {
   id = 8014720
   title = EVT_8014720_NAME
   desc = EVT_8014720_DESC

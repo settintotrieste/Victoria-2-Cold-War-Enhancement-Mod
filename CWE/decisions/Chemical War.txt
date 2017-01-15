@@ -10,7 +10,7 @@ has_country_modifier = chemical_nation
 		}
 
 allow = {
-
+any_neighbor_country = { war_with = THIS }
 OR = { ai = no 
 
 AND = { 
