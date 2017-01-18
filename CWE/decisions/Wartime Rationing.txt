@@ -41,9 +41,9 @@ OR = { ai = no AND = { ai = yes OR = {
 
 AND = { has_country_modifier = rationhigh NOT = { national_provinces_occupied = 0.60 } } 
 
-AND = { has_country_modifier = rationmedium NOT = { national_provinces_occupied = 0.60 } national_provinces_occupied = 0.40 } 
+AND = { has_country_modifier = rationmedium NOT = { AND = { NOT = { national_provinces_occupied = 0.60 } national_provinces_occupied = 0.40 } } }
 
-AND = { has_country_modifier = rationlow NOT = { national_provinces_occupied = 0.40 } } 
+AND = { has_country_modifier = rationlow national_provinces_occupied = 0.40 } 
 
 } } } 
 				}
@@ -75,7 +75,7 @@ rationhigh = {
 		NOT = { AND = { has_country_modifier = rationhigh
 			has_country_modifier = rationmedium
 			has_country_modifier = rationlow } }
-	OR = { ai = no AND = { ai = yes has_country_modifier = rationhigh NOT = { national_provinces_occupied = 0.60 } } }
+	OR = { ai = no AND = { ai = yes national_provinces_occupied = 0.60 } }
 				}
 		effect = {
 
@@ -100,7 +100,7 @@ rationmedium = {
 			NOT = { AND = { has_country_modifier = rationhigh
 			has_country_modifier = rationmedium
 			has_country_modifier = rationlow } }
-OR = { ai = no AND = { ai = yes has_country_modifier = rationmedium NOT = { national_provinces_occupied = 0.60 } national_provinces_occupied = 0.40 } }
+OR = { ai = no AND = { ai = yes NOT = { national_provinces_occupied = 0.60 } national_provinces_occupied = 0.40 } }
 				}
 		effect = {
 add_country_modifier = { name = rationmedium duration = -1 }
@@ -123,7 +123,7 @@ rationlow = {
 		NOT = { AND = { has_country_modifier = rationhigh
 			has_country_modifier = rationmedium
 			has_country_modifier = rationlow } }
-OR = { ai = no AND = { ai = yes has_country_modifier = rationlow NOT = { national_provinces_occupied = 0.40 } } }
+OR = { ai = no AND = { ai = yes NOT = { national_provinces_occupied = 0.40 } } }
 
 				}
 		effect = {

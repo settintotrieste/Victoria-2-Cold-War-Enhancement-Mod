@@ -411,7 +411,7 @@ modifier = { factor = 0.8 location = { NOT = { controlled_by = owner } } }
 
 	# ugly but need to limit pop fragmentation and sino indian swamping
 	modifier = { 
-		factor = -0.20
+		factor = -0.30
 		OR = { 
 			is_culture_group = south_asian 
 			is_culture_group = southeast_asian 
@@ -421,12 +421,14 @@ modifier = { factor = 0.8 location = { NOT = { controlled_by = owner } } }
 
 	# roundabout way to mod that mostly refugees emigrate
 	modifier = { 
-		factor = -0.2
+		factor = -0.30
 		country = {
 			OR = {
 				government = absolute_monarchy
 				government = hms_government
 				government = democracy
+				government = democracy1
+				government = hms_government1
 			}
 		}
 	} 

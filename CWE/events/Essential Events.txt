@@ -1,3 +1,26 @@
+#Startup capital
+country_event = {
+	id = 886
+	title = "Marshall Plan"
+	desc = "US Monetary Aid for Britain has arrived."
+	picture = "GOLD"
+	
+	
+	trigger = {
+		year = 1950
+		tag = ENG
+		ai = yes
+		NOT = { has_country_flag = moneyforalleng }
+
+	}
+	
+	option = {
+		name = "Money really does grows on trees!"
+		treasury = 2000000
+		set_country_flag = moneyforalleng
+		}
+}
+
 #Startup capital - CHINA
 country_event = {
 	id = 887
@@ -35,6 +58,7 @@ country_event = {
 	trigger = {
 		year = 1946
 		is_greater_power = yes
+		ai = yes
 		NOT = { has_country_flag = moneyforall }
 
 	}
@@ -595,6 +619,7 @@ picture = "dev_bank"
 		year = 1950
 		NOT = { government = proletarian_dictatorship }
 		ai = no
+	any_greater_power = { capitalism = 1 }
 	NOT = { has_global_flag = stockcrash }
 
 	}
