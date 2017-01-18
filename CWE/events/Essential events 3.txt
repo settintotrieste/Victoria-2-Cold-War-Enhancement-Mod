@@ -1795,3 +1795,53 @@ prestige = 100
 set_global_flag = iss_built
 		}
 }
+
+#Nationalisation of Critical Industries start
+country_event = {
+	id = 1400069
+	title = "Should we Nationalise Major Companies?"
+	desc = EVTDESC1400069
+	picture = "nationalisation"
+	
+trigger = { 
+NOT = { has_country_modifier = nap }
+NOT = { has_country_modifier = nationalisation_of_industry }
+NOT = { has_country_modifier = privatisation_of_industry }
+NOT = { government = proletarian_dictatorship }
+NOT = { government = proletarian_dictatorship1 }
+}
+
+option = {
+name = "Nationalise them!"
+prestige = 10
+set_country_flag = nap
+
+add_country_modifier = { name = nationalisation_in_progress duration = 3650 }
+
+add_country_modifier = { name = nationalisation_of_industry duration = -1 }
+
+ai_chance = { 
+factor = 0 
+modifier = { 
+OR = { economic_policy = planned_economy economic_policy = planned_economy1 economic_policy = state_capitalism } 
+factor = 1 } 
+}
+		}
+option = {
+name = "Leave them Privatised!"
+prestige = -10
+set_country_flag = nap
+
+add_country_modifier = { name = privatisation_in_progress duration = 3650 }
+
+add_country_modifier = { name = privatisation_of_industry duration = -1 }
+
+ai_chance = { 
+factor = 1
+modifier = { 
+OR = { economic_policy = planned_economy economic_policy = planned_economy1 economic_policy = state_capitalism } 
+factor = 0 } 
+}
+
+		}
+}

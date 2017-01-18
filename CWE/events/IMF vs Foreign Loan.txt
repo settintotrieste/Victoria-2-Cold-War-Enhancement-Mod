@@ -11,25 +11,46 @@ option = {
 	name = "Give generous aid"
 diplomatic_relation = { who = FROM value = 50 }
 relation = { who = FROM value = 50 }
-FROM = { money = 75000 }
-money = -75000
-ai_chance = { factor = 25 }
+FROM = { money = 50000 }
+money = -50000
+
+ai_chance = { 
+factor = 0
+modifier = { 
+money = 1000000
+factor = 1 } 
+}
+
 		}
 
 option = {
 	name = "Give acceptable aid"
 diplomatic_relation = { who = FROM value = 25 }
 relation = { who = FROM value = 25 }
-FROM = { money = 50000 }
-money = -50000
-ai_chance = { factor = 75 }
+FROM = { money = 25000 }
+money = -25000
+
+ai_chance = { 
+factor = 0
+modifier = { 
+AND = { money = 500000 NOT = { money = 1000000 } }
+factor = 1 } 
+}
+
 		}
 
 option = {
 	name = "Do not give any aid!"
-diplomatic_relation = { who = FROM value = -25 }
-relation = { who = FROM value = -50 }
-ai_chance = { factor = 0 }
+#diplomatic_relation = { who = FROM value = -25 }
+relation = { who = FROM value = -25 }
+
+ai_chance = { 
+factor = 0
+modifier = { 
+NOT = { money = 500000 }
+factor = 1 } 
+}
+
 FROM = { country_event = 624913 }
 		}
 			}
@@ -62,7 +83,14 @@ FROM = { money = 10000 }
 money = -10000
 diplomatic_relation = { who = FROM value = 10 }
 relation = { who = FROM value = 50 }
-ai_chance = { factor = 33 }
+
+ai_chance = { 
+factor = 0
+modifier = { 
+money = 1000000
+factor = 1 } 
+}
+
 		}
 
 option = {
@@ -71,13 +99,28 @@ FROM = { money = 5000 }
 money = -5000
 diplomatic_relation = { who = FROM value = 5 }
 relation = { who = FROM value = 25 }
-ai_chance = { factor = 34 }
+
+
+ai_chance = { 
+factor = 0
+modifier = { 
+AND = { money = 500000 NOT = { money = 1000000 } }
+factor = 1 } 
+}
+
 		}
 
 option = {
 	name = "Do not give any aid!"
 relation = { who = FROM value = -50 }
-ai_chance = { factor = 33 }
+
+ai_chance = { 
+factor = 0
+modifier = { 
+NOT = { money = 500000 }
+factor = 1 } 
+}
+
 FROM = { country_event = 624915 }
 		}
 			}

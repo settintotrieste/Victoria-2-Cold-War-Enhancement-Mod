@@ -203,6 +203,7 @@ country_event = {
     tag = KMT
     year = 1963 NOT = { year = 1990 }
     exists = TIB
+	CHI = { exists = no }
     has_global_flag = KMT_won_civil_war
   }
 
@@ -233,7 +234,7 @@ country_event = {
 
   option = {
     name = EVT_8015121_B
-	KMT = { create_vassal = TIB}
+	KMT = { create_vassal = TIB }
   }
 }
 country_event = {

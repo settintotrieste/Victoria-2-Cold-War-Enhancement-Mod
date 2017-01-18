@@ -9,7 +9,7 @@ country = {
 	REBEL_ACCEPTANCE_MONTHS = 60,
 	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2, 
-	GOLD_TO_CASH_RATE = 0.8, -- Amount of money generated per gold unit
+	GOLD_TO_CASH_RATE = 1.0, -- Amount of money generated per gold unit
 	GOLD_TO_WORKER_PAY_RATE = 2.4, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 360, 	   -- how many days until country risks losing status as great nation
@@ -618,7 +618,7 @@ pops = {
 
 	ASSIMILATION_SCALE = 0.001, -- TODO
 	CONVERSION_SCALE = 0.002,
-	IMMIGRATION_SCALE = 0.002,
+	IMMIGRATION_SCALE = 0.001,
 
 	PROMOTION_SCALE = 0.0025,
 	PROMOTION_ASSIMILATION_CHANCE = 0.001,
@@ -653,7 +653,7 @@ pops = {
 	
 	NATIONAL_FOCUS_DIVIDER = 100000.0,
 	
-	POP_SAVINGS = 0.10, 
+	POP_SAVINGS = 0.15, 
 	
 	STATE_CREATION_ADMIN_LIMIT = 0.01,
 	MIL_TO_JOIN_REBEL = 7, -- Rebels over this will join a faction
