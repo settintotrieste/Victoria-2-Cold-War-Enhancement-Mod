@@ -10,6 +10,7 @@ NOT = { has_country_modifier = develop_hydrogen_bomb }
 NOT = { has_country_modifier = atomic_nation }	
 NOT = { has_country_modifier = hydrogen_nation }
 is_vassal = no
+NOT = { has_country_modifier = non_proliferation_treaty }
 NOT = { has_country_flag = atomic_bomb_developed }
 part_of_sphere = no
 
@@ -22,15 +23,15 @@ election = no
 OR = { 
 
 AND = { tag = RUS ai = yes year = 1945 }
-AND = { tag = ENG ai = yes year = 1949 }
-AND = { tag = FRA ai = yes year = 1956 }
-AND = { tag = CHI ai = yes year = 1960 }
+AND = { tag = ENG ai = yes year = 1949 money = 2000000 }
+AND = { tag = FRA ai = yes year = 1956 money = 2000000 }
+AND = { tag = CHI ai = yes year = 1960 money = 2000000 }
 
-AND = { tag = HND ai = yes year = 1970 }
-AND = { tag = PAK ai = yes year = 1980 }
+AND = { tag = HND ai = yes year = 1970 money = 2000000 }
+AND = { tag = PAK ai = yes year = 1980 money = 2000000 }
 AND = { tag = NKO ai = yes year = 2003 }
-AND = { tag = ISR ai = yes year = 1963 }
-AND = { tag = SAF ai = yes year = 1979 }
+AND = { tag = ISR ai = yes year = 1963 money = 2000000 }
+AND = { tag = SAF ai = yes year = 1979 money = 2000000 }
 
 AND = { 
 ai = yes
@@ -39,12 +40,13 @@ money = 2000000
 NOT = { has_country_modifier = alliance_nato }
 NOT = { has_country_modifier = warsaw_pact }
 NOT = { has_country_modifier = non_proliferation_treaty }
-NOT = { government = democracy }
-NOT = { government = democracy1 }
-NOT = { government = hms_government }
-NOT = { government = hms_government1 }
+#NOT = { government = democracy }
+#NOT = { government = democracy1 }
+#NOT = { government = hms_government }
+#NOT = { government = hms_government1 }
 NOT = { government = sar_government }
 NOT = { government = colonial_government }
+any_neighbor_country = { OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation } badboy = 15 NOT = { relation = { who = THIS value = -190 } } }
 war_policy = jingoism
 }
 

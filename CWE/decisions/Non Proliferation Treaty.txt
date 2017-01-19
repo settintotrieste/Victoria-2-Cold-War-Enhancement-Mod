@@ -8,11 +8,15 @@ NOT = { has_country_modifier = atomic_nation }
 NOT = { has_country_modifier = hydrogen_nation }
 NOT = { has_country_modifier = develop_atomic_bomb }
 NOT = { has_country_modifier = develop_hydrogen_bomb }
-
-NOT = { has_country_modifier = non_proliferation_treaty }
-					is_greater_power = no 
+NOT = { has_country_modifier = non_proliferation_treaty } 
 					OR = { 
-						is_secondary_power = no
+				badboy = 15
+				is_vassal = yes
+
+NOT = { any_neighbor_country = { OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation } badboy = 15 NOT = { relation = { who = THIS value = -190 } } } }
+
+is_secondary_power = no 
+
 						AND = { has_country_modifier = alliance_nato OR = { USA = { has_country_modifier = atomic_nation } USA = { has_country_modifier = hydrogen_nation } } }
 						AND = { has_country_modifier = rio_pact OR = { USA = { has_country_modifier = atomic_nation } USA = { has_country_modifier = hydrogen_nation } } }
 						AND = { has_country_modifier = warsaw_pact OR = { RUS = { has_country_modifier = atomic_nation } RUS = { has_country_modifier = hydrogen_nation } } }

@@ -1845,3 +1845,23 @@ factor = 0 }
 
 		}
 }
+
+#Kicked out of the EIB
+country_event = {
+	id = 1400070
+	title = "$COUNTRY$ Kicked out of the EIB"
+	desc = "Since we have left the EU, we can no longer be members of the European Investment Bank"
+	picture = "eib"
+	
+trigger = { 
+NOT = { tech_school = XEU_tech_school }
+has_country_modifier = eib_member
+}
+
+option = {
+name = "We won't want to be part of it anyway!"
+prestige = -10
+remove_country_modifier = eib_member
+remove_country_modifier = eib_principal_member
+		}
+}

@@ -1,23 +1,23 @@
 #Startup capital
 country_event = {
 	id = 886
-	title = "Marshall Plan"
-	desc = "US Monetary Aid for Britain has arrived."
+	title = "Marshall Plan aid for $COUNTRY$"
+	desc = "US Monetary Aid for $COUNTRY$ has arrived."
 	picture = "GOLD"
 	
 	
 	trigger = {
 		year = 1950
-		tag = ENG
+	OR = { tag = ENG tag = FRA tag = NET tag = BEL }
 		ai = yes
-		NOT = { has_country_flag = moneyforalleng }
+		NOT = { has_country_flag = moneyforallfraeng }
 
 	}
 	
 	option = {
 		name = "Money really does grows on trees!"
 		treasury = 2000000
-		set_country_flag = moneyforalleng
+		set_country_flag = moneyforallfraeng
 		}
 }
 

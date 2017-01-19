@@ -2,6 +2,41 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+### Proxy Wars ###
+
+proxy_involvement = {	
+badboy = 0.05
+	icon = 18
+}
+
+support_rebels = {
+non_accepted_pop_militancy_modifier = 0.02
+suppression_points_modifier = -0.5
+	icon = 18
+}
+
+support_government = {
+core_pop_militancy_modifier = -0.02
+suppression_points_modifier = 0.4
+	icon = 18
+}
+
+support_called = {
+prestige = -0.1	
+	icon = 18
+}
+
+crisis_timer = {	
+	icon = 18
+}
+
+stalemate = {
+social_reform_desire = 0.30	
+political_reform_desire = 0.30
+ruling_party_support = -0.20
+	icon = 18
+}
+
 ### Nationalisation & Privatisation ###
 
 nationalisation_of_industry = {

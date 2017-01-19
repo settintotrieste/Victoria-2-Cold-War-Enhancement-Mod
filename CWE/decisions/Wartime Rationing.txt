@@ -11,7 +11,7 @@ endration = {
 			alert = yes
 		allow = {
 			war = no
-			election = yes
+			#election = no
 				}
 	effect = {
 						

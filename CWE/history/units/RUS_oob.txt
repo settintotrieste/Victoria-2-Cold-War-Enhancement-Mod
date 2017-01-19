@@ -7,13 +7,13 @@ SYR = {
 ALB = {
 	level = 5
 	value = 160
-	influence_value = 25
+	influence_value = 100
 	military_access = yes
 }
 FIN = {
 	level = 5
 	value = 160
-	influence_value = 50
+	influence_value = 100
 	military_access = yes
 }
 YUG = {
@@ -25,37 +25,37 @@ YUG = {
 CZH = {
 	level = 5
 	value = 200
-	influence_value = 25
+	influence_value = 100
 	military_access = yes
 }
 HUN = {
 	level = 5
 	value = 200
-	influence_value = 25
+	influence_value = 100
 	military_access = yes
 }
 ROM = {
 	level = 5
 	value = 200
-	influence_value = 25
+	influence_value = 100
 	military_access = yes
 }
 BUL = {
 	level = 5
 	value = 200
-	influence_value = 25
+	influence_value = 100
 	military_access = yes
 }
 POL = {
 	level = 5
 	value = 200
-	influence_value = 25
+	influence_value = 100
 	military_access = yes
 }
 MGL = {
 	level = 5
 	value = 200
-	influence_value = 25
+	influence_value = 100
 	military_access = yes
 }
 AZB = {
@@ -85,7 +85,7 @@ DAI = {
 CHI = {
 	level = 5
 	value = 200
-	influence_value = 25
+	influence_value = 100
 	military_access = yes
 }
 army = {
