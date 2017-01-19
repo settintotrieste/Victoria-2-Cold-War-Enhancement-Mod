@@ -205,7 +205,7 @@ EVTDESC1800001;There has been growing Superpower contention in a country that ha
 EVTDESC2000000;In light of the tense Cold War situation, our foreign minister has proposed that we host an international summit to iron out the differences between the USA and the USSR to cool down the tensions. Should we accept his suggestion $RULER$?;;;;;;;;x
 EVTDESC2000001;In light of the tense Cold War situation, $FROMCOUNTRY$'s foreign minister has proposed that we participate in an international summit to iron out the differences between the USA and the USSR to cool down the tensions. Should we accept his suggestion $RULER$?;;;;;;;;x
 cold_war_high;Highly tense Cold War Environment;;;;;;;;x
-cold_war_medium;Tense Cold War Environment;;;;;;;;x
+cold_war_medium;Moderately Tense Cold War Environment;;;;;;;;x
 cold_war_low;Detente Cold War Environment;;;;;;;;x
 un_king1;Foremost Superpower;;;;;;;;x
 un_king2;Second most powerful Superpower;;;;;;;;x

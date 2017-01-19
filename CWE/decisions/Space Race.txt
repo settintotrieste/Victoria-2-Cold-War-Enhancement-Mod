@@ -5,19 +5,20 @@ political_decisions = {
 			picture = "space_agency"
 			potential = {
 		NOT = { has_country_modifier = space_agency }			cold_war = 1
-		is_greater_power = yes
+OR = { is_greater_power = yes is_secondary_power = yes }
 			}
 
 			allow = {
-			money = 5000000
-			icbm = 1
+			money = 100000
+			election = no
+			cold_war = 1
 			war = no
 	OR = { has_country_modifier = atomic_nation
 	has_country_modifier = hydrogen_nation	 AND = { missile_launch_facility = 1 international_science = 1 early_backbone = 1 economic_globalization = 1 } }
 						}
 
 			effect = {
-			money = -1000000
+			money = -50000
 			prestige = 100
 add_country_modifier = { name = space_agency duration = -1 }
 						}

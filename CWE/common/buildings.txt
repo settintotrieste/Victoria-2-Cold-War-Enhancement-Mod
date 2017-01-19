@@ -29,7 +29,7 @@ fish_canned_food_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -50,7 +50,7 @@ nuclear_fuel_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 60 
@@ -70,7 +70,7 @@ fruit_canned_food_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -91,7 +91,7 @@ grain_canned_food_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -112,7 +112,7 @@ rice_canned_food_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -133,7 +133,7 @@ oil_seeds_canned_food_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -157,7 +157,7 @@ cattle_canned_food_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -181,7 +181,7 @@ wool_canned_food_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -201,7 +201,7 @@ fabric_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -221,7 +221,7 @@ wool_fabric_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -241,7 +241,7 @@ footwear_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -265,7 +265,7 @@ cement_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		coal = 6.0 
@@ -286,7 +286,7 @@ machine_parts_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -307,7 +307,7 @@ coal_fuel_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -331,7 +331,7 @@ jewellery_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -356,7 +356,7 @@ lumber_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -377,7 +377,7 @@ petroleum_fuel_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -397,7 +397,7 @@ gas_fuel_factory = {    # liquefied natural gas
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -417,7 +417,7 @@ copper_wire_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -437,7 +437,7 @@ steel_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -457,7 +457,7 @@ inorganic_chemicals_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -477,7 +477,7 @@ petroleum_fabric_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -498,7 +498,7 @@ petroleum_plastics_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -519,7 +519,7 @@ rubber_plastics_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -539,7 +539,7 @@ paper_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -560,7 +560,7 @@ glass_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -580,7 +580,7 @@ aluminium_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -601,7 +601,7 @@ small_arms_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -622,7 +622,7 @@ heating_electricity_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -644,7 +644,7 @@ integrated_circuits_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -664,7 +664,7 @@ clothes_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -684,7 +684,7 @@ optics_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -704,7 +704,7 @@ cigarettes_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -725,7 +725,7 @@ furniture_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -745,7 +745,7 @@ beverages_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -765,7 +765,7 @@ beverages_sugar_factory = {
         on_completion = factory
         completion_size = 0.2
         max_level = 255
-        cost = 100
+        cost = 1
         goods_cost =
         {
                 cement = 5
@@ -785,7 +785,7 @@ beverages_coffee_factory = {
         on_completion = factory
         completion_size = 0.2
         max_level = 255
-        cost = 100
+        cost = 1
         goods_cost =
         {
                 cement = 5
@@ -805,7 +805,7 @@ beverages_tea_factory = {
         on_completion = factory
         completion_size = 0.2
         max_level = 255
-        cost = 100
+        cost = 1
         goods_cost =
         {
                 cement = 5
@@ -826,7 +826,7 @@ electric_gear_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -846,7 +846,7 @@ pharmaceuticals_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -868,7 +868,7 @@ ships_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -889,7 +889,7 @@ aeroplane_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -910,7 +910,7 @@ computers_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -931,7 +931,7 @@ telecommunications_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -952,7 +952,7 @@ electric_telecommunications_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -973,7 +973,7 @@ automobiles_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -994,7 +994,7 @@ beverage_tobacco_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1015,7 +1015,7 @@ health_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1036,7 +1036,7 @@ furniture_houseware_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1057,7 +1057,7 @@ clothes_footwear_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 100
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1078,7 +1078,7 @@ weaponry_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1099,7 +1099,7 @@ advanced_weaponry_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 2000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1120,7 +1120,7 @@ transport_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1141,7 +1141,7 @@ communication_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 2000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1162,7 +1162,7 @@ education_rnd_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 2000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1183,7 +1183,7 @@ culture_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1204,7 +1204,7 @@ recreation_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 1000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 
@@ -1225,7 +1225,7 @@ financial_services_factory = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 255
-	cost = 5000
+	cost = 1
 	goods_cost = 
 	{
 		cement = 6.0 

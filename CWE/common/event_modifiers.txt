@@ -196,14 +196,20 @@ icon = 18
 }
 
 olympics_village = {
+local_RGO_throughput = 0.10
+local_factory_output = 0.10
 icon = 7
 }
 
 olympics_sport = {
+local_RGO_throughput = 0.10
+local_factory_output = 0.10
 icon = 7
 }
 
 olympics_media = {
+local_RGO_throughput = 0.10
+local_factory_output = 0.10
 icon = 7
 }
 
