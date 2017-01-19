@@ -1629,7 +1629,7 @@ country_event = {
 	id = 1400059
 	title = "Our Man in Space attempt failed"
 	desc = "Poor launch planning, human errors during the launch and excellent astronaut training are reasons cited for the failure."
-	picture = "space_man_failure"
+	picture = "space_man_fail"
 	
 is_triggered_only = yes
 

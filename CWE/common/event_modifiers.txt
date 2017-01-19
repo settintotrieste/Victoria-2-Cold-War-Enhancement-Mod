@@ -96,6 +96,11 @@ prestige = 0.01
 icon = 7
 }
 
+develop_space_man = {
+tax_efficiency = -0.02
+icon = 7
+}
+
 develop_space_satellite = {
 tax_efficiency = -0.02
 icon = 7
