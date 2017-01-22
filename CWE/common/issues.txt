@@ -15,7 +15,6 @@ party_issues = {
 	economic_policy = {
 		laissez_faire = {
 			max_tax = 0.5
-			tax_efficiency = 0.01
 			factory_owner_cost = 0.5
 			factory_throughput = 0.05
 			rules = {
@@ -92,8 +91,8 @@ party_issues = {
 		}
 
 		planned_economy1 = {
-			min_tax = 0.9
-			min_tariff = 0.50
+			min_tax = 0.0
+			min_tariff = 0.10
 			mobilisation_economy_impact = -0.25
 			factory_owner_cost = 1.5
 			rules = {
@@ -116,8 +115,8 @@ party_issues = {
 		}
 
 		planned_economy = {
-			min_tax = 0.9
-			min_tariff = 0.50
+			min_tax = 0.0
+			min_tariff = 0.10
 			mobilisation_economy_impact = -0.25
 			factory_owner_cost = -1
 			rules = {

@@ -2075,7 +2075,7 @@ nukes_enabled = {
 #}
 boycott_fascism = { 
 	prestige = -0.01
-	badboy = 0.2
+	badboy = 0.02
 }
 colonial_unrest = {
         local_RGO_throughput = -0.6

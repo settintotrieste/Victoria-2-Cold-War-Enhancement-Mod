@@ -101,956 +101,1998 @@ song = {
 	}
 }
 
-
-song = {
-	name = "allies_battle1.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = { government = democracy government = hms_government }
-			war = yes
-		}
-		modifier = {
-			factor = 0
-			NOT = { OR = { government = democracy government = hms_government } }
-		}
-		modifier = {
-			factor = 0
-			war = no
-		}		
-	}
-}
-
-song = {
-	name = "allies_peace1.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = { government = democracy government = hms_government }
-			war = no
-		}
-		modifier = {
-			factor = 0
-			NOT = { OR = { government = democracy government = hms_government } }
-		}
-		modifier = {
-			factor = 0
-			war = yes
-		}		
-	}
-}
-
-song = {
-	name = "allies_peace2.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = { government = democracy government = hms_government }
-			war = no
-		}
-		modifier = {
-			factor = 0
-			NOT = { OR = { government = democracy government = hms_government } }
-		}
-		modifier = {
-			factor = 0
-			war = yes
-		}		
-	}
-}
-
-song = {
-	name = "allies_peace3.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = { government = democracy government = hms_government }
-			war = no
-		}
-		modifier = {
-			factor = 0
-			NOT = { OR = { government = democracy government = hms_government } }
-		}
-		modifier = {
-			factor = 0
-			war = yes
-		}
-	}
-}
-
-song = {
-	name = "desertatdusk.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = {
-				is_culture_group = maghreb_cultures
-				is_culture_group = arabic
-				is_culture_group = iranian_turanian
-				is_culture_group = turko_semitic
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_culture_group = maghreb_cultures
-					is_culture_group = arabic
-					is_culture_group = iranian_turanian
-					is_culture_group = turko_semitic
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			war = yes
-		}
-
-	}
-}
-
-song = {
-	name = "gradient.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			involved_in_crisis = no
-		}		
-
-		modifier = {
-			factor = 20
-			involved_in_crisis = yes
-		}
-	}
-}
-
-song = {
-	name = "apathofdanger.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			NOT = {
-				any_owned_province = {
-					controlled_by_rebels = yes
-				}
-			}
-		}		
-
-		modifier = {
-			factor = 2
-			any_owned_province = {
-				controlled_by_rebels = yes
-			}
-		}
-	}
-}
-
-song = {
-	name = "astateofpanic.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			involved_in_crisis = no
-		}		
-
-		modifier = {
-			factor = 20
-			involved_in_crisis = yes
-		}
-	}
-}
-
-song = {
-	name = "superpowers.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			OR = { government = democracy government = hms_government }
-		}
-		modifier = {
-			factor = 2
-			NOT = { OR = { government = democracy government = hms_government } }
-		}
-	}
-}
-
-song = {
-	name = "gen_war_worldatwar.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			NOT = {
-				war = yes
-				any_greater_power = {
-					alliance_with = THIS
-					war = yes
-				}
-				any_greater_power = {
-					war_with = THIS
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			war = yes
-			any_greater_power = {
-				alliance_with = THIS
-				war = yes
-			}
-			any_greater_power = {
-				war_with = THIS
-			}
-		}
-	}
-}
-
-song = {
-	name = "ww3.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			NOT = {
-				war = yes
-				any_greater_power = {
-					alliance_with = THIS
-					war = yes
-				}
-				any_greater_power = {
-					war_with = THIS
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			war = yes
-			any_greater_power = {
-				alliance_with = THIS
-				war = yes
-			}
-			any_greater_power = {
-				war_with = THIS
-			}
-		}
-	}
-}
-
-song = {
-	name = "general_battle1.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			war = yes
-		}
-		modifier = {
-			factor = 0		
-			war = no
-		}		
-	}
-}
-
-# 
-# 
-#song = { #Song for the nation leading the UN
-#	name = "gen_unitednations.mp3"
-#	
-#	chance = {
-#		modifier = {
-#			factor = 0
-#			NOT = { #UN leader }
-#		}
-#		modifier = {
-#			factor = 2
-#			# UN LEADER
-#		}
-#	}
-#}
-
-
-song = {
-	name = "MEO.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			war = yes
-		}
-		modifier = {
-			factor = 2
-			war = no
-		}
-	}
-}
-
-song = {
-	name = "Beacon.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			war = yes
-		}
-		modifier = {
-			factor = 2
-			war = no
-		}
-	}
-}
-
-song = {
-	name = "Float.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			war = yes
-		}
-		modifier = {
-			factor = 2
-			war = no
-		}
-	}
-}
-
-song = {
-	name = "Waveform.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			war = yes
-		}
-		modifier = {
-			factor = 2
-			war = no
-		}
-	}
-}
-
-song = {
-	name = "neutral1_savedbychoppers.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			war = no
-		}
-		modifier = {
-			factor = 2
-			war = yes
-		}
-	}
-}
-
-
-song = {
-	name = "Orient.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = {
-				is_culture_group = central_asian
-				is_culture_group = far_east_asian
-				is_culture_group = east_asian
-				is_culture_group = south_asian
-				is_culture_group = southeast_asian
-			}
-		}		
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_culture_group = central_asian
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = south_asian
-					is_culture_group = southeast_asian
-				}
-			}
-		}
-	}
-}
-
-song = {
-	name = "watervapour.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = {
-				is_culture_group = central_asian
-				is_culture_group = far_east_asian
-				is_culture_group = east_asian
-				is_culture_group = south_asian
-				is_culture_group = southeast_asian
-			}
-		}		
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_culture_group = central_asian
-					is_culture_group = far_east_asian
-					is_culture_group = east_asian
-					is_culture_group = south_asian
-					is_culture_group = southeast_asian
-				}
-			}
-		}
-	}
-}
-
-
-song = {
-	name = "spanish_heart.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = {
-				is_culture_group = european_spanish
-				is_culture_group = latin_american_cultures
-				primary_culture = european
-			} 
-		}		
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_culture_group = european_spanish
-					is_culture_group = latin_american_cultures
-					primary_culture = european
-				} 
-			}
-		}
-		modifier = {
-			factor = 0
-			war = yes
-		}		
-	}
-}
-
-song = {
-	name = "latin_battle.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = {
-				is_culture_group = european_spanish
-				is_culture_group = latin_american_cultures
-				primary_culture = european
-			}
-			war = yes
-		}	
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_culture_group = european_spanish
-					is_culture_group = latin_american_cultures
-					primary_culture = european
-				} 
-			}
-		}
-		modifier = {
-			factor = 0
-			war = no
-		}		
-	}
-}
-
-song = {
-	name = "sandstruggle.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = {
-				is_culture_group = maghreb_cultures
-				is_culture_group = arabic
-				is_culture_group = iranian_turanian
-				is_culture_group = turko_semitic
-			}
-			war = yes
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_culture_group = maghreb_cultures
-					is_culture_group = arabic
-					is_culture_group = iranian_turanian
-					is_culture_group = turko_semitic
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			war = no
-		}
-	}
-}
-
-song = {
-	name = "tranquillite.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = {
-				is_culture_group = european_french
-				primary_culture = european
-			} 
-		}		
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_culture_group = european_french
-					primary_culture = european
-				} 
-			}
-		}				
-		modifier = {
-			factor = 0
-			war = yes
-		}
-	}
-}
-
-song = {
-	name = "voicesthroughlights.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			OR = {
-				is_culture_group = european_french
-				is_culture_group = european_italian
-				is_culture_group = european_spanish
-				is_culture_group = british_cultures
-				is_culture_group = germanic_cultures
-				is_culture_group = european
-				is_culture_group = neo_european_cultures
-				is_culture_group = levantine
-				is_culture_group = scandinavian
-				is_culture_group = pan_albanian
-				is_culture_group = pan_romanian
-				is_culture_group = jewish_cultures
-			} 
-		}	
-		modifier = {
-			factor = 0
-			NOT = {
-				OR = {
-					is_culture_group = european_french
-					is_culture_group = european_italian
-					is_culture_group = european_spanish
-					is_culture_group = british_cultures
-					is_culture_group = germanic_cultures
-					is_culture_group = european
-					is_culture_group = neo_european_cultures
-					is_culture_group = levantine
-					is_culture_group = scandinavian
-					is_culture_group = pan_albanian
-					is_culture_group = pan_romanian
-					is_culture_group = jewish_cultures
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			war = yes
-		}
-	}
-}
+### War Songs ###
 
 song = {
 	name = "russianbattle1.mp3"
-	
+
 	chance = {
-		modifier = {
-			factor = 2
-			NOT = { OR = { government = democracy government = hms_government } }
-			war = yes
+		factor = 0
+		war = no
+		THIS = { ai = no }
+		NOT = { tag = RUS }
 		}
-		modifier = {
-			factor = 0
-			war = no
-		}
-		modifier = {
-			factor = 0
-			OR = { government = democracy government = hms_government }
-		}
+
+chance = {
+		factor = 1
+		war = yes
+		THIS = { ai = no }
+		tag = RUS
 	}
 }
 
 song = {
 	name = "russianbattle2.mp3"
-	
+
 	chance = {
-		modifier = {
-			factor = 2
-			NOT = { OR = { government = democracy government = hms_government } }
-			war = yes
+		factor = 0
+		war = no
+		THIS = { ai = no }
+	NOT = { tag = RUS }
 		}
-		modifier = {
-			factor = 0
-			war = no
-		}
-		modifier = {
-			factor = 0
-			OR = { government = democracy government = hms_government }
-		}		
+
+chance = {
+		factor = 1
+		war = yes
+		THIS = { ai = no }
+		tag = RUS
 	}
 }
 
 song = {
-	name = "russia_peace1.mp3"
-	
+	name = "ww3.mp3"
+
 	chance = {
-		modifier = {
-			factor = 2
-			NOT = { OR = { government = democracy government = hms_government } }
-			war = no
+		factor = 0
+		THIS = { ai = no }
+		war = no
 		}
-		modifier = {
-			factor = 0
-			war = yes
-		}
-		modifier = {
-			factor = 0
-			OR = { government = democracy government = hms_government }
-		}		
+
+chance = {
+		factor = 1
+		THIS = { ai = no }
+		war = yes
 	}
 }
 
 song = {
-	name = "russianpeace2_notfinished.mp3"
-	
+	name = "gen_war_worldatwar.mp3"
+
 	chance = {
-		modifier = {
-			factor = 2
-			NOT = { OR = { government = democracy government = hms_government } }
-			war = no
+		factor = 0
+THIS = { ai = no }
+		war = no
 		}
-		modifier = {
-			factor = 0
-			war = yes
-		}
-		modifier = {
-			factor = 0
-			OR = { government = democracy government = hms_government }
-		}		
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+		war = yes
 	}
 }
 
 song = {
-	name = "russianpeace3.mp3"
-	
+	name = "general_battle1.mp3"
+
 	chance = {
-		modifier = {
-			factor = 2
-			NOT = { OR = { government = democracy government = hms_government } }
-			war = no
+		factor = 0
+THIS = { ai = no }
+		war = no
 		}
-		modifier = {
-			factor = 0
-			war = yes
-		}
-		modifier = {
-			factor = 0
-			OR = { government = democracy government = hms_government }
-		}		
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+		war = yes
 	}
 }
 
-# DEFCON 
 song = {
-	name = "defcon1.mp3"
-	
+	name = "latin_battle.mp3"
+
 	chance = {
-		modifier = {
-			factor = 2
-			war = yes
-			OR = {
-				has_country_modifier = task_nuke
-				any_owned_province = {has_province_modifier = nuked}
-			}
+		factor = 0
+THIS = { ai = no }
+		war = no
 		}
-		modifier = {
-			factor = 0
-			war = no
-		}
-		modifier = {
-			NOT = {has_country_modifier = task_nuke}
-			NOT = {any_owned_province = {has_province_modifier = nuked}}
-		}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+		war = yes
 	}
 }
 
 song = {
 	name = "defcon2.mp3"
-	
+
 	chance = {
-		modifier = {
-			factor = 20
-			war = yes
-			has_country_flag = stall_nuclear_peace
+		factor = 0
+		war = no
+THIS = { ai = no }
+		NOT = { has_country_modifier = defcon1 }
 		}
-		modifier = {
-			factor = 0
-			war = no
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_country_flag = stall_nuclear_peace }
-		}		
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+		has_country_modifier = defcon1
+		war = yes
 	}
 }
 
 song = {
 	name = "defcon3.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 2
-			war = yes
-			any_neighbor_country = {
-				war_with = THIS
-				has_country_flag = nuclear_weapon_power
-			}
-			NOT = { has_country_modifier = task_nuke }
-			NOT = { has_country_flag = stall_nuclear_peace }
-		}
-		modifier = {
-			factor = 0
-			war = no
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = {
-					any_neighbor_country = {
-						war_with = THIS
-						has_country_flag = nuclear_weapon_power
-					}
-				}
-				has_country_modifier = task_nuke
-				has_country_flag = stall_nuclear_peace
-			}
-		}
-	}
-}
 
-# Doomsday Clock
-song = {
-	name = "nukeatmosphere.mp3"
-	
 	chance = {
-		modifier = {
-			factor = 2
-			any_neighbor_country = {
-				has_country_flag = nuclear_weapon_power
-				NOT = { relation = { who = THIS value = -150 } }
-			}
+		factor = 0
+THIS = { ai = no }
+		war = no
+		NOT = { has_country_modifier = defcon1 }
 		}
-		modifier = {
-			factor = 0
-			NOT = {
-				any_neighbor_country = {
-					has_country_flag = nuclear_weapon_power
-					NOT = { relation = { who = THIS value = -150 } }
-				}
-			}
-		}		
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+		has_country_modifier = defcon1
+		war = yes
 	}
 }
 
 song = {
-	name = "Gridlock.mp3"
-	
-	chance = {
-		modifier = {
-			factor = 0
-			involved_in_crisis = no
-		}		
+	name = "astateofpanic.mp3"
 
-		modifier = {
-			factor = 2
-			involved_in_crisis = yes
-		}	
+	chance = {
+		factor = 0
+THIS = { ai = no }
+		war = no
+		}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+		war = yes
 	}
 }
 
 song = {
-	name = "nonplus.mp3"
-	
+	name = "apathofdanger.mp3"
+
 	chance = {
-		modifier = {
-			factor = 2
-			any_neighbor_country = {
-				has_country_flag = nuclear_weapon_power
-				NOT = { relation = { who = THIS value = -100 } }
-			}
+		factor = 0
+THIS = { ai = no }
+		war = no
 		}
-		modifier = {
-			factor = 0
-			NOT = {
-				any_neighbor_country = {
-					has_country_flag = nuclear_weapon_power
-					NOT = { relation = { who = THIS value = -100 } }
-				}
-			}
-		}	
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+		war = yes
 	}
 }
 
-#song = {	#Low on unity
-#	name = "unitylow.mp3"
-#	
-#	chance = {
-#		modifier = {
-#			factor = 0
-#			national_unity = 70
-#		}
-#		modifier = {
-#			factor = 2
-#			NOT = { national_unity = 50 }
-#		}
-#	}
-#}
+### German Songs ###
 
-song = { #Played for countries that have decolonized and broken free from their colonial master
-	name = "anuncertainfuture.mp3"
-	
+song = {
+	name = "German 1.mp3"
+
 	chance = {
-		modifier = {
-			factor = 2
-			year = 1992
-			war = no
+		factor = 0
+THIS = { ai = no }
+		war = yes
 		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1992 }
-		}
-		modifier = {
-			factor = 0
-			war = yes
-		}		
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+		tag = GER
+		war = no
 	}
 }
 
-song = { #Played for countries that lost one of its colonial puppets to indepence
-	name = "tiesarebroken.mp3"
-	
+song = {
+	name = "German 2.mp3"
+
 	chance = {
-		modifier = {
-			factor = 2
-			year = 1992
-			war = no
+		factor = 0
+THIS = { ai = no }
+		war = yes
 		}
-		modifier = {
-			factor = 0
-			NOT = { year = 1992 }
-		}
-		modifier = {
-			factor = 0
-			war = yes
-		}		
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+		tag = GER
+		war = no
 	}
 }
 
-song = { #Played for nation that is forced to relinquish land or puppets 
+song = {
+	name = "German 3.mp3"
 
-	name = "diminishment.mp3"
-	
 	chance = {
-		modifier = {
-			factor = 4
-			war = no
-			has_recently_lost_war = yes
-		}		
-		modifier = {
-			factor = 0
-			has_recently_lost_war = no
+		factor = 0
+THIS = { ai = no }
+		war = yes
 		}
-		modifier = {
-			factor = 0
-			war = yes
-		}		
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+		tag = GER
+		war = no
 	}
 }
 
-song = { #Played for nations that are at peace and have signed the Geneva convention
+### Democracy Songs 1 ###
 
-	name = "delightfulpoetry.mp3"
-	
+song = {
+	name = "Democracy 1.mp3"
+
 	chance = {
-		modifier = {
-			factor = 2
-			has_country_flag = international_court_of_justice
-			war = no
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+year = 1947	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+chance = {
+		factor = 1000
+THIS = { ai = yes }
+war = no
+year = 1946
+NOT = { year = 1947 }
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+}
+
+song = {
+	name = "Democracy 2.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "Democracy 3.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "Democracy 4.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "Democracy 5.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "Democracy 6.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "Democracy 7.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "Democracy 8.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "Democracy 9.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "Democracy 10.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+### Communist Songs ###
+
+song = {
+	name = "russianpeace3.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+year = 1947
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+chance = {
+		factor = 1000
+THIS = { ai = yes }
+war = no
+year = 1946
+NOT = { year = 1947 }
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+}
+
+song = {
+	name = "Communist 1.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+
+}
+
+song = {
+	name = "Communist 2.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+
+}
+
+song = {
+	name = "Communist 3.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+
+}
+
+song = {
+	name = "Communist 4.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+
+}
+
+song = {
+	name = "Communist 5.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+
+}
+
+song = {
+	name = "Communist 6.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+
+}
+
+song = {
+	name = "Communist 7.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+
+}
+
+song = {
+	name = "Communist 8.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+
+}
+
+song = {
+	name = "Communist 9.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+
+}
+
+song = {
+	name = "Communist 10.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = proletarian_dictatorship
+government = proletarian_dictatorship1
+} 
+	}
+
+
+}
+
+#### Dictatorship Songs ###
+
+song = {
+	name = "Dictatorship 1.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+	}
+
+
+}
+
+song = {
+	name = "Dictatorship 2.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+	}
+
+
+}
+
+song = {
+	name = "Dictatorship 3.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+	}
+
+
+}
+
+song = {
+	name = "Dictatorship 4.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+	}
+
+
+}
+
+song = {
+	name = "Dictatorship 5.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+year = 1947
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+	}
+
+chance = {
+		factor = 1000
+THIS = { ai = yes }
+war = no
+year = 1946
+NOT = { year = 1947 }	
+OR = { 
+government = presidential_dictatorship
+government = populist_dictatorship
+government = nationalist_dictatorship
+government = theocracy
+government = absolute_monarchy
+} 
+	}
+
+
+
+}
+
+#### General Songs ####
+
+song = {
+	name = "General 1.mp3"
+
+	chance = {
+		factor = 0
+		war = yes
 		}
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = {
-					has_country_flag = international_court_of_justice
-				}
-				war = yes
-			}
-		}		
+
+chance = {
+		factor = 1
+		war = no
 	}
 }
 
-song = { #Played for nations that have lost the pride of the fleet or lost more then 2 naval units in a battle
+song = {
+	name = "General 2.mp3"
 
-	name = "dilemma.mp3"
-	
 	chance = {
-		modifier = {
-			factor = 4
-			war = no
-			has_recently_lost_war = yes
-		}		
-		modifier = {
-			factor = 0
-			has_recently_lost_war = no
+		factor = 0
+		war = yes
 		}
-		modifier = {
-			factor = 0
-			war = yes
-		}
+
+chance = {
+		factor = 1
+		war = no
 	}
 }
 
-song = { #Played UN leader
+song = {
+	name = "General 3.mp3"
 
-	name = "responsibilities.mp3"
-	
 	chance = {
-		modifier = {
-			factor = 2
-			war = no
+		factor = 0
+		war = yes
 		}
-		modifier = {
-			factor = 0
-			war = yes
-		}		
+
+chance = {
+		factor = 1
+		war = no
 	}
+}
+
+song = {
+	name = "General 4.mp3"
+
+	chance = {
+		factor = 0
+		war = yes
+		}
+
+chance = {
+		factor = 1
+		war = no
+	}
+}
+
+song = {
+	name = "General 5.mp3"
+
+	chance = {
+		factor = 0
+		war = yes
+		}
+
+chance = {
+		factor = 1
+		war = no
+	}
+}
+
+song = {
+	name = "General 6.mp3"
+
+	chance = {
+		factor = 0
+		war = yes
+		}
+
+chance = {
+		factor = 1
+		war = no
+	}
+}
+
+song = {
+	name = "General 7.mp3"
+
+	chance = {
+		factor = 0
+		war = yes
+		}
+
+chance = {
+		factor = 1
+		war = no
+	}
+}
+
+song = {
+	name = "General 8.mp3"
+
+	chance = {
+		factor = 0
+		war = yes
+		}
+
+chance = {
+		factor = 1
+		war = no
+	}
+}
+
+song = {
+	name = "General 9.mp3"
+
+	chance = {
+		factor = 0
+		war = yes
+		}
+
+chance = {
+		factor = 1
+		war = no
+	}
+}
+
+song = {
+	name = "General 10.mp3"
+
+	chance = {
+		factor = 0
+		war = yes
+		}
+
+chance = {
+		factor = 1
+		war = no
+	}
+}
+
+song = {
+	name = "General 11.mp3"
+
+	chance = {
+		factor = 0
+		war = yes
+		}
+
+chance = {
+		factor = 1
+		war = no
+	}
+}
+
+#### Asian & Middle East Songs ####
+
+song = {
+	name = "Asia 1.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+		war = yes
+NOT = { capital_scope = { continent = asia } }
+		}
+
+chance = {
+		factor = 1
+		war = no
+		capital_scope = { continent = asia }
+	}
+}
+
+song = {
+	name = "Orient.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+		war = yes
+NOT = { capital_scope = { continent = mena } }
+		}
+
+chance = {
+		factor = 1
+		war = no
+		capital_scope = { continent = mena }
+	}
+}
+
+song = {
+	name = "desertatdusk.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+		war = yes
+NOT = { capital_scope = { continent = mena } }
+		}
+
+chance = {
+		factor = 1
+		war = no
+		capital_scope = { continent = mena }
+	}
+}
+
+song = {
+	name = "MEO.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+		war = yes
+NOT = { capital_scope = { continent = mena } }
+		}
+
+chance = {
+		factor = 1
+		war = no
+		capital_scope = { continent = mena }
+	}
+}
+
+#### Democracy Songs 2 ####
+
+song = {
+	name = "allies_peace1.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "allies_peace2.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+}
+
+song = {
+	name = "allies_peace3.mp3"
+
+	chance = {
+		factor = 0
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 1
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "allies_battle1.mp3"
+
+	chance = {
+		factor = 1
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 0
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+song = {
+	name = "ww3.mp3"
+
+	chance = {
+		factor = 1
+THIS = { ai = no }
+war = yes
+	NOT = { 
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+  }
+	}
+
+chance = {
+		factor = 0
+THIS = { ai = no }
+war = no
+	
+OR = { 
+government = democracy1
+government = democracy
+government = hms_government1
+government = hms_government
+government = sar_government
+government = colonial_government
+government = mandate_government
+} 
+	}
+
+
+}
+
+### Post 2000 Songs  ###
+
+song = {
+	name = "2000.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2001.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2002.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2003.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2004.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2005.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2006.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2007.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+song = {
+	name = "2008.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+song = {
+	name = "2009.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2010.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2011.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+song = {
+	name = "2012.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2013.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2014.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2015.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2016.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+song = {
+	name = "2017.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2018.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+
+song = {
+	name = "2019.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
+}
+song = {
+	name = "2020.mp3"
+
+	chance = {
+		factor = 1
+war = no
+year = 2000
+
+		}
+
+chance = {
+		factor = 0
+
+OR = { war = yes NOT = { year = 2000 } }
+	
+	}
+
+
 }
 

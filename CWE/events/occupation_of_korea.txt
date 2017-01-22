@@ -139,6 +139,7 @@ country_event = {
 		prestige = 5
 		diplomatic_influence = { who = SKO value = 200 }
 		USA = { military_access = THIS }
+		SKO = { capital = 1624 }
 	}
 	
 	option = {

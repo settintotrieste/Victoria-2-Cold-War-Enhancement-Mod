@@ -213,6 +213,7 @@ any_owned = {
 					secede_province = PAK
 				}
 	PAK = { government = hms_government }
+	PAK = { capital = 1288 }
 	release_vassal = NEP
 	release_vassal = JAK
 	leave_alliance = TIB

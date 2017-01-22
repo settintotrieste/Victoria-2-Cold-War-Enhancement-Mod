@@ -1,4 +1,4 @@
-capital = 1218
+capital = 1288
 primary_culture = indian_muslim
 religion = sunni
 government = democracy

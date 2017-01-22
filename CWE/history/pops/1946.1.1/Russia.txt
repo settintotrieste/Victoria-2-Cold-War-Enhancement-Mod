@@ -14060,6 +14060,11 @@
 		religion =  orthodox 
 		size = 1394
 	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
+	 } 
 	officers = {
 		culture = russian
 		religion = secularism
@@ -25487,6 +25492,11 @@
 		religion =  orthodox 
 		size = 167
 	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
+	 } 
 	officers = {
 		culture = russian
 		religion = secularism
@@ -25605,6 +25615,11 @@
 		religion = secularism
 		size = 287
 	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
+	 } 
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
@@ -25687,7 +25702,12 @@
 		culture = russian
 		religion = secularism
 		size = 18
-	 } 
+	 }
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
+	 }  
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
@@ -25816,6 +25836,11 @@
 		religion =  orthodox 
 		size = 166
 	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
+	 } 
 	artisans = {
 		culture = russian
 		religion = secularism
@@ -25848,6 +25873,11 @@
 		culture = russian
 		religion =  orthodox 
 		size = 107
+	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
 	 } 
 	officers = {
 		culture = russian
@@ -25932,6 +25962,11 @@
 		religion =  orthodox 
 		size = 552
 	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
+	 } 
 	officers = {
 		culture = russian
 		religion = secularism
@@ -26014,6 +26049,11 @@
 		culture = russian
 		religion =  orthodox 
 		size = 11121
+	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 13940
 	 } 
 	officers = {
 		culture = russian
@@ -26143,6 +26183,11 @@
 		religion =  orthodox 
 		size = 1684
 	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
+	 } 
 	officers = {
 		culture = russian
 		religion = secularism
@@ -26251,6 +26296,11 @@
 }
 #Luga - Luga (362000/90500 POPS)
 996 = {
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
+	 } 
 	officers = {
 		culture = russian
 		religion =  orthodox 
@@ -26338,6 +26388,11 @@
 		culture = russian
 		religion =  orthodox 
 		size = 609
+	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
 	 } 
 	officers = {
 		culture = russian
@@ -26467,6 +26522,11 @@
 		religion = secularism
 		size = 416
 	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
+	 } 
 	artisans = {
 		culture = russian
 		religion =  orthodox 
@@ -26504,6 +26564,11 @@
 		culture = russian
 		religion =  orthodox 
 		size = 440
+	 } 
+	capitalists = {
+		culture = russian
+		religion =  orthodox 
+		size = 1394
 	 } 
 	officers = {
 		culture = russian

@@ -31,7 +31,7 @@ CZH = {
 HUN = {
 	level = 5
 	value = 200
-	influence_value = 100
+	influence_value = 200
 	military_access = yes
 }
 ROM = {
@@ -71,7 +71,7 @@ KUR = {
 	military_access = yes
 }
 ETS = {
-	level = 3
+	level = 1
 	value = 120
 	influence_value = 25
 	military_access = yes

@@ -1884,3 +1884,60 @@ name = "We have to shake them out of their laziness!"
 add_country_modifier = { name = economic_malaise duration = 21900 }
 		}
 }
+
+#Post Cold War Russian Economic Malaise
+country_event = {
+	id = 1410071
+	title = "$PRIMARYCULTURE$ Economic Malaise"
+	desc = "Due to years of Communist rule, our workforce has become lazy and inefficient. It will take time before they can get off the Vodka and be productive again."
+	picture = "cw_malaiase"
+	
+trigger = { 
+tag = RUS
+NOT = { government = proletarian_dictatorship }
+NOT = { has_country_modifier = economic_malaise }
+}
+
+option = {
+name = "We have to shake them out of their laziness!"
+prestige = -25
+add_country_modifier = { name = economic_malaise duration = 7300 }
+		}
+}
+
+#Suharto Dictatorship
+country_event = {
+	id = 1410072
+	title = "1967 Indonesian Coup"
+	desc = EVTDESC1410072
+	picture = "suharto"
+	
+trigger = { 
+tag = IDO
+year = 1967
+government = democracy
+NOT = { has_country_flag = suharto }
+NOT = { year = 1990 }
+}
+
+option = {
+name = "Support Sukarno!"
+prestige = -25
+set_country_flag = suharto
+ai_chance = { 
+factor = 0.1
+}
+		}
+
+option = {
+name = "Support Suharto!"
+prestige = 25
+government = presidential_dictatorship
+country_event = 800050
+set_country_flag = suharto
+ai_chance = { 
+factor = 0.9
+}
+		}
+
+}

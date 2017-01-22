@@ -26,7 +26,7 @@ NOT = { has_country_modifier = chemical_weapons_convention }
 NOT = { government = sar_government }
 NOT = { government = colonial_government }
 has_country_modifier = defcon4
-war_policy = jingoism
+OR = { war_policy = jingoism government = proletarian_dictatorship government = proletarian_dictatorship1 }
 }
 
 AND = { ai = no money = 500000 }
