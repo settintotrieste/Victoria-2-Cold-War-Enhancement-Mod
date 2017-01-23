@@ -1,7 +1,7 @@
 capital = 1416
 primary_culture = indonesian
 religion = secularism
-government = presidential_dictatorship
+government = democracy
 plurality = 0.0
 nationalvalue = nv_equality
 literacy = 0.04
@@ -20,17 +20,17 @@ upper_house = {
 	communist = 5
 	}
 # Political Reforms
-political_opinions = ruling_party_opinion
+political_opinions = free_opinion
 minorities_reform = minorities_oppression
-immigration_policy = nobody_gets_out
-internet_infrastructure = quality_of_service
-political_parties = parties_only_nominated
+immigration_policy = naturalization
+internet_infrastructure = open_unregulated
+political_parties = parties_allowed
 religious_rights = state_religion
 lgbt_rights = lgbt_outlawed
-publishing_rights = censored_publishing
+publishing_rights = unregulated_publishing
 gender_rights = gender_role_based
-voting_system = proportional_representation
-vote_franschise = none_voting
+voting_system = first_past_the_post
+vote_franschise = universal_voting
 # Social Reforms
 safety_regulations = some_regulations
 pensions = no_pensions

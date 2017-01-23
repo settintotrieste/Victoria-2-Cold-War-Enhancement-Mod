@@ -46,13 +46,13 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "party_socialist_0_MSY"
+		name = "UMNO/PEKEMBAR"
 		citizenship_policy = limited_citizenship
 		economic_policy = state_capitalism
 		ideology = socialist
 		religious_policy = pro_atheism
 		trade_policy = protectionism
-		war_policy = pacifism
+		war_policy = pro_military
 		start_date = 1836.1.1
 		end_date = 2092.1.1
 }
@@ -79,7 +79,7 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "party_populist_0_chinese_MSY"
+		name = "Democractic Action Party"
 		citizenship_policy = residency
 		economic_policy = state_capitalism
 		ideology = populist

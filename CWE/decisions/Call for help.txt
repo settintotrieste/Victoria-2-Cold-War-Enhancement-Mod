@@ -5,6 +5,10 @@ call_for_allies_to_help = {
 		potential = {
 			war = yes
 			ai = yes
+		NOT = { tag = KAY }
+		NOT = { tag = SHA }
+		NOT = { AND = { tag = CHI war_with = ETS } }
+		NOT = { AND = { tag = CHI war_with = TIB } }
 		NOT = { has_country_modifier = called_allies }
 				}
 			alert = yes

@@ -64,7 +64,7 @@ country_event = {
 	
 	option = {
 		name = "EVT_1003302_B" # war with Ituri
-		war = { target = ITU attacker_goal = { casus_belli = annex_core_country } defender_goal = { casus_belli = status_quo } }
+		war = { target = ITU attacker_goal = { casus_belli = civil_war } defender_goal = { casus_belli = status_quo } }
 		ai_chance = { factor = 0 }
 	}
 	
@@ -346,7 +346,8 @@ country_event = {
  
   option = {
     name = EVT_8003336_A
-	government = presidential_dictatorship  country_event = 800050
+	government = presidential_dictatorship  
+country_event = 800050
 	any_pop = { consciousness = 1 }
   }
 }
@@ -430,7 +431,7 @@ country_event = {
 
   option = {
     name = EVT_8003340_A
-	war = { target = KAT attacker_goal = { casus_belli = annex_core_country } defender_goal = { casus_belli = status_quo } }
+	war = { target = KAT attacker_goal = { casus_belli = civil_war } defender_goal = { casus_belli = status_quo } }
   }
 }
 country_event = {
@@ -454,7 +455,8 @@ country_event = {
     name = EVT_8003341_A
 	capital = 1982 # Leopoldville
 	change_tag_no_core_switch = CNG
-	government = proletarian_dictatorship  country_event = 800042
+	government = proletarian_dictatorship  
+country_event = 800042
 	RUS = { diplomatic_influence = { who = CNG value = 100 } }
   }
 }

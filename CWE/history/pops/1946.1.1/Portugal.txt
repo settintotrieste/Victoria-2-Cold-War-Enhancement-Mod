@@ -281,7 +281,7 @@
 		religion = secularism
 		size = 284
 	 } 
-	farmers = {
+	craftsmen = {
 		culture = chinese_cantonese
 		religion =  taoism 
 		size = 41141
