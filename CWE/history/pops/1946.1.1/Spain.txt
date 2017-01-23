@@ -3200,7 +3200,7 @@
 		religion = secularism
 		size = 5371
 	 } 
-	farmers = {
+	craftsmen = {
 		culture = catalan
 		religion =  catholic 
 		size = 474271

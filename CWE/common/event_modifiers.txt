@@ -2,7 +2,36 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+### Embargo ###
+
+embargo_nation = {
+import_cost = 1
+factory_throughput = -0.35 
+factory_owner_cost = 1
+tax_efficiency = -0.05
+icon = 18
+}
+
+total_embargo_nation = {
+import_cost = 2
+factory_throughput = -0.75 
+factory_owner_cost = 2
+tax_efficiency = -0.10
+icon = 18
+}
+
+embargoing_nation = {
+import_cost = 0.05
+tax_efficiency = -0.01
+icon = 18
+}
+
 ### Proxy Wars ###
+
+called_allies = {	
+prestige = -0.1
+	icon = 18
+}
 
 proxy_involvement = {	
 badboy = 0.05

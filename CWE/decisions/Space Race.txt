@@ -226,6 +226,8 @@ space_private = {
 			potential = {
 		NOT = { has_country_modifier = space_private }
 		has_country_modifier = space_agency
+		NOT = { government = proletarian_dictatorship }
+		NOT = { government = proletarian_dictatorship1 }
 				}
 			alert = no
 			allow = {

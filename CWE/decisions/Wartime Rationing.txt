@@ -123,7 +123,7 @@ rationlow = {
 		NOT = { AND = { has_country_modifier = rationhigh
 			has_country_modifier = rationmedium
 			has_country_modifier = rationlow } }
-OR = { ai = no AND = { ai = yes NOT = { national_provinces_occupied = 0.40 } } }
+OR = { ai = no AND = { ai = yes NOT = { national_provinces_occupied = 0.40 } national_provinces_occupied = 0.10 } }
 
 				}
 		effect = {

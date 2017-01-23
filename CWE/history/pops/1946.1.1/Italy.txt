@@ -3122,7 +3122,7 @@
 		religion = secularism
 		size = 5438
 	 } 
-	farmers = {
+	craftsmen = {
 		culture = italian
 		religion =  catholic 
 		size = 693838

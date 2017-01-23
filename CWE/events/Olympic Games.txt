@@ -96,6 +96,9 @@ country_event = {
 option = {
 name = "Let the Games Begin!"
 prestige = 50
+
+random_country = { limit = { NOT = { has_country_modifier = recently_held_olympics } is_greater_power = no is_secondary_power = no is_vassal = no war = no } country_event = 123424 }
+
 random_list = {
 	15 = { country_event = 123419 }
 	60 = { country_event = 123418 }
@@ -168,7 +171,6 @@ NOT = { has_country_modifier = olympics_in_session }
 option = {
 name = "We had fun!"
 prestige = 50
-random_country = { limit = { NOT = { has_country_modifier = recently_held_olympics } is_greater_power = no is_secondary_power = no is_vassal = no war = no } country_event = 123424 }
 clr_country_flag = olympics_ongoing
 		}
 }

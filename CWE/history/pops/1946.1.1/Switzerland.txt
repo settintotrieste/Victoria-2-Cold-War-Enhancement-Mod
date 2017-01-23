@@ -203,7 +203,7 @@
 		religion = secularism
 		size = 4000
 	 } 
-	farmers = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 227804

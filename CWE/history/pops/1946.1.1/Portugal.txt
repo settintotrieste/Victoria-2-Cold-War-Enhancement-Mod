@@ -3542,7 +3542,7 @@
 		religion = secularism
 		size = 3444
 	 } 
-	farmers = {
+	craftsmen = {
 		culture = portuguese
 		religion =  catholic 
 		size = 305066
@@ -3891,12 +3891,12 @@
 		religion = secularism
 		size = 2664
 	 } 
-	farmers = {
+	craftsmen = {
 		culture = portuguese
 		religion =  catholic 
 		size = 235938
 	 } 
-	farmers = {
+	craftsmen = {
 		culture = portuguese
 		religion = secularism
 		size = 21215
