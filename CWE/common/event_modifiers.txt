@@ -135,7 +135,7 @@ tax_efficiency = -0.02
 icon = 7
 }
 
-develop_space_probes = {
+develop_space_probe = {
 tax_efficiency = -0.02
 icon = 7
 }
